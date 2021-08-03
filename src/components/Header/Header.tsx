@@ -1,10 +1,11 @@
 import React from 'react';
+import { Logo } from '../Logo/Logo';
 import './Header.sass';
 
 export const Header: React.FC = () => {
     return (
         <header className="header">
-            I AM THE HEADER
+            <Logo />
         </header>
     )
 }
