@@ -3,6 +3,8 @@ import './Logo.sass';
 
 export const Logo: React.FC = () => {
     return (
-        <div className="logo" />
+        <a href="https://github.com/DelightVLG" target="_blank" rel="noreferrer">
+            <div className="logo" />
+        </a>
     )
 }
