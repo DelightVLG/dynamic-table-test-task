@@ -16,7 +16,6 @@ function App() {
             <Route component={DynamicTable} exact path={'/table'} />
             <Route component={VideoFrame} path={'/video'} />
         </Switch>
-
     </div>
   );
 }

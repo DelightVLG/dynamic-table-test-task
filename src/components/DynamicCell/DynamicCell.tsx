@@ -1,7 +1,9 @@
 import React from 'react';
+import { DynamicCellProps } from '../../interfaces/interfaces';
+import './DynamicCell.sass';
 
-export const DynamicCell: React.FC = () => {
+export const DynamicCell: React.FC<DynamicCellProps> = ({title, position, color}) => {
     return (
-        <div></div>
+        <li className="dynamic-cell" style={{gridArea: position, backgroundColor: color}}>{title}</li>
     )
 }
